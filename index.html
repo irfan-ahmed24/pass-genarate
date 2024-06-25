@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keyword"
+      content="password,password genarate,genarate password,pass genarate"
+    />
+    <title>password genarated</title>
+    <link rel="stylesheet" href="project4.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Genarator</h1>
+      <div class="input">
+        <input type="text" class="password" disabled />
+        <img src="copy.png" alt="" class="icon" />
+      </div>
+      <input type="range" min="1" max="30" value="5" class="range" />
+      <div class="lenght">
+        <p>Password length</p>
+        <span class="sliderValue"></span>
+      </div>
+      <div class="condi">
+        <label for="Lowercase">Include Lowercase latter (a-z)</label>
+        <input type="checkbox" name="cheakbox" id="Lowercase" />
+      </div>
+      <div class="condi">
+        <label for="upercase">Include upercase latter (A-Z)</label>
+        <input type="checkbox" name="cheakbox" id="upercase" />
+      </div>
+      <div class="condi">
+        <label for="number">Include number(1-9)</label>
+        <input type="checkbox" name="cheakbox" id="number" />
+      </div>
+      <div class="condi">
+        <label for="symbles">Include symbles(@-*) </label>
+        <input type="checkbox" name="cheakbox" id="symbles" />
+      </div>
+      <button class="genarate">Genarate Password</button>
+    </div>
+    <script src="project4.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right bottom, #f59494, #8d3434);
+}
+.container {
+  height: fit-content;
+  width: fit-content;
+  padding: 30px;
+  text-align: justify;
+  background: linear-gradient(to right bottom, #f59494, #8d3434);
+  box-shadow: 10px 10px 10px rgba(46, 44, 44, 0.7),
+    1px 1px 10px rgba(46, 44, 44, 0.5);
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.password {
+  display: flex;
+  background-color: rgb(245, 240, 234);
+  width: 100%;
+  border: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.range {
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.lenght {
+  display: flex;
+  font-size: 20px;
+}
+.lenght p {
+  flex-basis: 100%;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.condi {
+  display: flex;
+  font-size: 20px;
+}
+.condi label {
+  flex-basis: 100%;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.condi input {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.genarate {
+  display: flex;
+  align-self: center;
+  background-color: blue;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.genarate:hover {
+  background-color: blueviolet;
+}
+.input {
+  display: flex;
+  position: relative;
+  justify-content: right;
+}
+.icon {
+  color: black;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 3px;
+  cursor: pointer;
+}
